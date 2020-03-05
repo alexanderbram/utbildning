@@ -27,7 +27,7 @@ public class Program {
 			ch[x] = textConvert.charAt(x);
 		}
 		for (int i = 0; i < ch.length; i++) {
-			for (int j = 0; j < 37; j++) {
+			for (int j = 0; j < 40; j++) {
 				if (ch[i] == letters[j]) {
 					newText += morseLetters[j];
 					newText += "  ";
